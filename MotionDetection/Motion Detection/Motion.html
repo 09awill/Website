@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+  <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js example</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="auduno-clmtrackr-e25dbc8/build/clmtrackr.js"></script>
+    <script src="model_pca_20_svm.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../Style.css">
+
+    <div class = "head">
+     <h1>Motion detection facial recognition cctv camera</h1>
+    </div>
+    <div class="topnav">
+       <a class="button" href="../../index.html">Home</a>
+       <a class="button" href = "../../Spotify/Spotify.html">Spotify App</a>  
+       <a class="button" href = "../../RandomAnimals/Animals.html">Random Animals</a>
+       <a class="button" href = "../../P5 DVD Bounce/Bounce.html">DVD Bounce</a>
+       <a class="button" href = "https://parse-nips.itch.io/last-straw">The Last Straw</a>
+       <a class="active" href = "Motion.html">Motion Detection / Facial Recognition</a>
+    </div>
+  </header>
+  <body height = "100%">
+  <div class= "MainContent">
+    <div id = "CanvasWrap"></div>
+    <div style = "bottom : 0;">
+      <p>Threshold in Image</p>
+      <input type="range" min="1" max="100" value="50" class="slider" id="thresholdInImageSlider">
+      <p>Threshold</p>
+      <input type="range" min="1" max="100" value="50" class="slider" id="thresholdSlider">
+      <p>Threshold Delay Slider</p>
+      <input type="range" min="1" max="100" value="50" class="slider" id="DelaySlider">
+    </div>
+    <div id = "images"></div>
+  </div>
+  </body>
+</html>

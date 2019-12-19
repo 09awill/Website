@@ -1,10 +1,11 @@
 body{
-    background-color: #1A1A1D;
-    background-position: center;
-    background-size: cover;
+    background-image: url("../Background.jpg");
+}
+canvas {
+  display: block;
 }
 .head {
-  background-color: #190061;
+  background-color: #84bd00;
   margin:auto;
   border-radius:10px;
   opacity: 0.95;
@@ -13,26 +14,10 @@ body{
   color: white;
   font-family:Impact;
 }
-.MainContent {
-  height:100vh;
-  opacity: 0.95;
-  border-radius:10px;
-  background-color:#333;
-  text-align: center;
-  padding: 30px;
-}
-.Input {
-  margin: auto;
-  text-align: center;
-  padding: 30px;
-}
 
 .topnav {
   background-color: #333;
   overflow: hidden;
-  border-radius:  30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .topnav a {
@@ -50,6 +35,6 @@ body{
 }
 
 .topnav a.active {
-  background-color: #3500D3;
+  background-color: #4CAF50;
   color: white;
 }
