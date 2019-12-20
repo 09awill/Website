@@ -11,9 +11,6 @@ function getLocation() {
             getWeather();
         });
 
-
-
-
     } else {
         console.log('Geolocation is not supported for this Browser/OS.');
     }
