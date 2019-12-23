@@ -19,7 +19,7 @@ var faceText;
 
 
 function setup() {
-    motionText = createElement('h1','No Motion Detected');
+  motionText = createElement('h1','No Motion Detected');
   motionText.parent('CanvasWrap');
   faceText = createElement('h1','No Face Detected');
   faceText.parent('CanvasWrap');

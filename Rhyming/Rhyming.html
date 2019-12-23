@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <header>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" type="text/css" href="../Style.css">
+      <title>Rhymy Rhymy</title>
+      <div class = "head">
+         <h1>So you think you can rhyme?</h1>
+      </div>
+      <div class="topnav">
+         <a class="button" href="../index.html">Home</a>
+         <a class="active" href = "Spotify.html">Spotify App</a>
+         <a class="button" href = "../RandomAnimals/Animals.html">Random Animals</a>
+         <a class="button" href = "../P5 DVD Bounce/Bounce.html">DVD Bounce</a>
+         <a class="button" href = "https://parse-nips.itch.io/last-straw">The Last Straw</a>
+         <a class="button" href = "../MotionDetection/Motion Detection/Motion.html">Motion Detection / Facial Recognition</a>
+      </div>
+   </header>
+   <body>
+      <div class= "MainContent">
+         <div class = "Input">
+            <input style="height:25px"; type="text" id ="InputWord" onkeydown = "if (event.keyCode == 13)getRhyme()">
+            <button style="height:30px"; onclick="getRhyme()">
+            Enter a word and get words which rhyme with it!
+         </div>
+         <div class ="RhymeResponse">
+         </div>
+      </div>
+   </body>
+</html>
